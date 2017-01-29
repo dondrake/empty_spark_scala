@@ -2,9 +2,9 @@ name := "SimpleProject"
 
 version := "1.0"
 
-scalaVersion := "2.10.6"
+scalaVersion := "2.11.8"
 
-val sparkVersion = "1.6.1"
+val sparkVersion = "2.1.0"
 
 libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion % "provided"
 
